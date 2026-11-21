@@ -34,15 +34,6 @@
 
 ---
 
-
-# H2O CLI
-
-### Local-first AI Coding Environment · CLI + Web Dashboard
-
-H2O is a local-first AI coding environment that brings AI-assisted development into your terminal and browser.
-
-It combines an interactive CLI, a local Web Dashboard, multiple AI provider adapters, workspace tools, persistent session history, and extensible integrations.
-
 **Package:** [`@dash_arta/h2o-cli`](https://www.npmjs.com/package/@dash_arta/h2o-cli)  
 **Version:** `1.1.1`  
 **Runtime:** Node.js `22.12.0+`

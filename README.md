@@ -1,3 +1,40 @@
+# 🌊 H2O CLI
+
+<p align="center">
+  <strong>A Local-First AI Coding Environment</strong><br/>
+  CLI · Web Dashboard · AI Providers · MCP · Plugins
+</p>
+
+<p align="center">
+  <a href="https://github.com/arta-kolbadi/H2O-code">
+    <img src="https://img.shields.io/github/stars/arta-kolbadi/H2O-code?style=for-the-badge&logo=github&label=Stars" alt="GitHub Stars"/>
+  </a>
+  <a href="https://github.com/arta-kolbadi/H2O-code/forks">
+    <img src="https://img.shields.io/github/forks/arta-kolbadi/H2O-code?style=for-the-badge&logo=github&label=Forks" alt="GitHub Forks"/>
+  </a>
+  <a href="https://github.com/arta-kolbadi/H2O-code/watchers">
+    <img src="https://img.shields.io/github/watchers/arta-kolbadi/H2O-code?style=for-the-badge&logo=github&label=Watchers" alt="GitHub Watchers"/>
+  </a>
+  <a href="https://github.com/arta-kolbadi/H2O-code/issues">
+    <img src="https://img.shields.io/github/issues/arta-kolbadi/H2O-code?style=for-the-badge&logo=github&label=Issues" alt="GitHub Issues"/>
+  </a>
+  <a href="https://www.npmjs.com/package/@dash_arta/h2o-cli">
+    <img src="https://img.shields.io/npm/v/@dash_arta/h2o-cli?style=for-the-badge&logo=npm&label=NPM" alt="NPM Version"/>
+  </a>
+  <a href="https://github.com/arta-kolbadi/H2O-code/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/arta-kolbadi/H2O-code?style=for-the-badge&label=License" alt="License"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/arta-kolbadi/H2O-code?style=flat-square&logo=git&label=Last%20Commit" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/repo-size/arta-kolbadi/H2O-code?style=flat-square&logo=github&label=Repository%20Size" alt="Repository Size"/>
+  <img src="https://img.shields.io/node/v/@dash_arta/h2o-cli?style=flat-square&logo=node.js&label=Node.js" alt="Node Version"/>
+</p>
+
+---
+
+
 # H2O CLI
 
 ### Local-first AI Coding Environment · CLI + Web Dashboard

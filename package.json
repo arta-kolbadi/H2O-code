@@ -1,0 +1,36 @@
+{
+  "name": "@dash_arta/h2o-cli",
+  "version": "1.1.2",
+  "description": "H2O AI coding environment with Bubb CLI, MCP, plugins and skills",
+  "type": "module",
+  "bin": {
+    "h2o": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "connect": "node src/index.js connect",
+    "doctor": "node src/index.js doctor",
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check src/integrations/mcp-manager.js && node --check src/integrations/extension-manager.js && node --check src/app.js && node --check src/agent.js && node --check src/tools.js && node --check src/dashboard.js && node --check src/session.js && node --check src/core/event-bus.js && node --check src/security/permission-engine.js && node --check src/changes/change-manager.js && node --check src/memory/project-memory.js && node --check src/agents/orchestrator.js && node --check src/tools/browser/browser-agent.js && node --check src/providers/http.js && node --check src/providers/openai-compatible.js && node --check src/providers/anthropic.js && node --check src/providers/gemini.js && node --check src/providers/copilot.js && node --check src/providers/registry.js && node --check src/providers/secrets.js && node --check src/providers/model-router.js",
+    "build": "npm run build:web && npm run check",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test:watch": "node --test --watch",
+    "audit": "npm audit --omit=dev",
+    "build:web": "node scripts/build-dashboard.mjs",
+    "postinstall": "npm run build:web"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@github/copilot-sdk": "^1.0.34",
+    "@napi-rs/keyring": "^2.1.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+.env
+.h2o/
+*.log
+
+.env.*
+!.env.example
+
+*.tgz
